@@ -1,0 +1,8 @@
+list1 = [1, 2, 3]
+list2 = [3, 4, 5]
+common_elements = []
+for a in list1:
+    for b in list2:
+        if a == b:
+            common_elements.append(a)
+print("Common elements:", common_elements)
